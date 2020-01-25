@@ -34,5 +34,8 @@
         "lint": "eslint index.js lib test",
         "test:jasmine": "jasmine test",
         "test": "npm run lint && npm run test:jasmine"
+    },
+    "dependencies": {
+        "which": "^2.0.2"
     }
 }
